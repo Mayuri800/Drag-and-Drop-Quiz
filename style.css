@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+body{
+    background-image: url("./assets/BG2.png");
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: 1000px 1000px;
+    background-color: #FFFF9E;
+}
+#parent{
+    position: relative;
+}
+h1{
+    
+    font-size: RFvalue(36);
+    color:  #FFFFFF;
+    transform: translate(40%,-5%);
+    font-family: 'Signika';
+}
+
+.first-text{
+   
+    transform: translate(44%,-100%);
+}
+
+h2{
+    
+    font-size: 36;
+    color:  #FFFFFF;
+    transform: translate(40%,-45%);
+    font-family: 'Signika';
+    z-index: 20;
+}
+.imgg{
+    
+    transform:translate(40%, 20%);
+}
+.cut{
+    transform:translate(1700%,400%);
+    opacity: 1;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.imgBox{
+    position: flex;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.leftBox {
+    display: flexbox;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color:black;
+    opacity: 0.75;
+    border: whitesmoke;
+    display: relative;
+    transform: translate(+750%, +550%);
+}
+ 
+ .rightBox{
+        display: flexbox;
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+        background-color:black;
+        opacity: 0.75;
+        border: whitesmoke;
+        display: relative;
+        transform: translate(+1200%, 215%);
+    }
+    #password {
+        width: 200px;
+        padding: 5px;
+        border: none;
+        background: transparent;
+        outline: none;
+        font-size: 16px;
+      }
+      
+      .eye {
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      input[type="checkbox"] {
+        display: none;
+      }
+      
+ 
