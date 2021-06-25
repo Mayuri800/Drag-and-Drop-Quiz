@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style> body {padding: 0; margin: 0;} </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+      <script src="p5.play.js"></script>
+      <script src = "matter.js"></script>
+      <script src="./p5.sound.js"></script>
+      <title>Drag and Drop quiz</title>
+      <script src="sketch.js"></script>    
+     <link rel= "stylesheet" href="./style.css" href="assets/Signika-VariableFont_wght.ttf">
+    </head>
+    <body>
+      <div class="leftBox">
+        <div class="imgBox" draggable="false">
+          <h1>1</h1>
+        </div>
+    </div>
+    <div class="leftBox">
+      <div class="imgBox" draggable="false">
+        <h1 >2</h1>
+      </div>
+    </div>
+    <div class="leftBox">
+      <div class="imgBox" draggable="false">
+        <h1>3</h1>
+      </div>
+    </div>
+    <div class="rightBox">
+      <div class="imgBox" draggable="false">
+        <h1>4</h1>
+      </div>
+    </div>
+    <div class="rightBox">
+      <div class="imgBox" draggable="false">
+        <h1>5</h1>
+      </div>
+    </div>
+    <div class="rightBox">
+      <div class="imgBox" draggable="false">
+        <h1>6</h1>
+      </div>
+    </div>
+<div id="parent">
+    <input type="image" value="click me" class="cut" id="mybtn" img src="./assets/Asset 22.png" width="60" height="60" >
+    <div id="cursorblink">
+    <img class="imgg" src='./assets/Asset 21.png' width="50%" height = "40%" />
+    <h2 class="first-text">Hi! I have a story to tell.<br>Can you drag and drop the elements <br>in correct order?</br></br></h2>
+  </div>
+</div>
+<script>
+  document.getElementById("mybtn").addEventListener("click",function(){
+    var mybox=document.getElementById("cursorblink");
+    var mybutton = document.getElementById("mybtn")
+    mybutton.style.display="none"
+      mybox.style.display="none";
+    
+  })
+</script>
+    </body>
+  </html>
